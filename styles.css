@@ -1,0 +1,24 @@
+body {
+    color: #0e3b43;
+    background-color: #a3bbad;
+    font-family: "Playfair Display", serif;
+}
+header {
+    background-color: #0e3b43;
+}
+
+h1 {
+    color:  #a3bbad;
+}
+
+.humanimpacts-h1{
+    color: #0e3b43;
+}
+
+.homelink-a {
+    color: white;
+}
+
+.impactslink-a {
+    color: white;
+}
