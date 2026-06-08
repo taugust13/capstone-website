@@ -1,3 +1,4 @@
+
 body {
     color: #0e3b43;
     background-color: #a3bbad;
@@ -5,10 +6,16 @@ body {
 }
 header {
     background-color: #0e3b43;
+    text-align: center;
 }
 
 h1 {
     color:  #a3bbad;
+    text-align: center;
+}
+
+.backtotoplink-a {
+    color: black;
 }
 
 .humanimpacts-h1{
@@ -25,7 +32,6 @@ h1 {
 
 .ecologicallink-a {
     color: white;
-
 }
 
 .ecological-h1 {
@@ -40,14 +46,39 @@ h1 {
     color: white;
 }
 
-.backtotoplink-a {
-    color: black;
-}
-
 .cultural-h1 {
     color:#a3bbad;
 }
 
 .culturallink-a {
     color:white;
+}
+
+h2 {
+    font-style: normal;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+p {
+    font-weight: normal;
+    line-height: 2;
+}
+
+li {
+    line-height: 2;
+    font-weight: normal;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: salmon;
+}
+
+header a:link {
+    color:whitesmoke;
+}
+
+header a:active {
+    color: whitesmoke;
 }
