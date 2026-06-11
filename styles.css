@@ -3,22 +3,35 @@
 }
 
 body {
+    margin: 0;
     color: #0e3b43;
     background-color: #a3bbad;
     font-family: "Playfair Display", serif, Arial, Helvetica, sans-serif;
-    background-image: url("./images/fengkai-liu-dFrIm-0o9JI-unsplash.jpg");
+    background-image: url("./images/pramod-tiwari-haHePkid1QQ-unsplash.jpg");
     background-size: cover;
 }
 header {
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: #0e3b43;
     text-align: center;
-    border:8px solid black; 
     max-width: 100%;
+    width: 100%;
+    margin: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+header a {
+   
 }
 
 h1 {
     color:  #a3bbad;
     text-align: center;
+    margin-top: 0%;
+    margin-bottom: 10px;
+    font-family:"Cinzel", serif;
 }
 
 .backtotoplink-a {
@@ -36,10 +49,12 @@ h1 {
 
 .ecological-h1 {
     color: #a3bbad;
+    font-family:"Cinzel", serif;
 }
 
 .protect-h1 {
     color:#a3bbad;
+    font-family:"Cinzel", serif;
 }
 
 .protectlink-a {
@@ -48,6 +63,7 @@ h1 {
 
 .cultural-h1 {
     color:#a3bbad;
+    font-family:"Cinzel", serif;
 }
 
 .culturallink-a {
@@ -57,19 +73,24 @@ h1 {
 
 h2 {
     font-style: normal;
-    font-weight: lighter;
-    background-color: aliceblue;
-    max-width: 180px;
-    padding: 5px;
-    border: 2px solid black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 25px 0 0 0;
 }
 
 p {
     font-weight: normal;
-    line-height: 2;
-    padding: 15px;
-    border: 2px solid black;
     background-color: aliceblue;
+}
+
+.banner-p { 
+   padding: 0;
+   margin:0;
+   border: none;
+   background-color: transparent;
+   color: white;
+   line-height: 1;
+   font-size: small;
 }
 
 li {
@@ -83,13 +104,15 @@ header a:link {
 }
 
 header a:hover {
-    color: salmon;
+    color: #a3bbad;
     text-decoration: underline;
 }
 
 #sockeyesalmon-img {
     border:5px solid #0e3b43;
     border-radius: 10px;
+    width: 300px;
+    height: 200px;
 }
 
 .salmonupstream-img {
@@ -107,10 +130,47 @@ header a:hover {
 
 .image-wrapper {
     background-color: aliceblue;
-    height: 200px;
-    width: 300px;
     background-image: url("./images/brandon-enPHTN3OPRw-unsplash.jpg");
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+}
+
+.banner {
+    height: 215px;
+    background-image: url("./images/fengkai-liu-dFrIm-0o9JI-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    margin:0;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 120px;
+    height: 180px;
+    background-color: rgba(94, 112, 115, 0.75);
+    padding: 15px;
+    font-family:"Cinzel", serif;
+}
+
+.content-box {
+    font-weight: normal;
+    padding: 15px;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 4opx;;
+}
+
+.homepage-h2 {
+    margin: 0 auto;
+}
+
+.homepage-content-p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.5;
 }
