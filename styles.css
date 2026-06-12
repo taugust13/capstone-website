@@ -10,6 +10,8 @@ body {
     background-image: url("./images/pramod-tiwari-haHePkid1QQ-unsplash.jpg");
     background-size: cover;
 }
+
+
 header {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -93,8 +95,9 @@ p {
    font-size: small;
 }
 
+
 li {
-    line-height: 2;
+    line-height: 1.75;
     font-weight: normal;
 }
 
@@ -109,31 +112,35 @@ header a:hover {
 }
 
 #sockeyesalmon-img {
-    border:5px solid #0e3b43;
-    border-radius: 10px;
-    width: 300px;
-    height: 200px;
+    display: block;
+    width: 98%;
+    height: 300px;
+    border-radius: 20px;
+    margin: 10px auto;
+    object-fit: bottom;
 }
 
 .salmonupstream-img {
-    border:5px solid #0e3b43;
-    border-radius: 15px;
-    margin: 20px 50px;
-    height: 100%;
+    display: block;
+    width: 98%;
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px auto;
+    object-fit: cover;
 }
 
 .lists {
-    background-color: aliceblue;
-    padding: 15px;
-    border: 2px solid black;
+
 }
 
 .image-wrapper {
     background-color: aliceblue;
     background-image: url("./images/brandon-enPHTN3OPRw-unsplash.jpg");
-    background-position: center;
+    background-position: top;
     background-size: cover;
-    margin: 0 auto;
+    margin: 8px;
+    min-height: 405px;
+    border-radius: 20px;
 }
 
 .banner {
@@ -143,6 +150,8 @@ header a:hover {
     background-position: center;
     margin:0;
     position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 .banner-text {
@@ -160,12 +169,14 @@ header a:hover {
     font-weight: normal;
     padding: 15px;
     background-color: aliceblue;
-    margin: 20px;
-    padding: 4opx;;
+    margin: 8px;
+    padding: 40px;
+    border-radius: 20px;
 }
 
 .homepage-h2 {
     margin: 0 auto;
+    padding-top: 1px;
 }
 
 .homepage-content-p {
@@ -174,3 +185,50 @@ header a:hover {
     padding-right: 50px;
     line-height: 1.5;
 }
+
+ul.arrow {
+    list-style: none;
+}
+
+ul.arrow li::before {
+    content: ">"
+}
+
+.container-footer {
+    width: auto;
+    height: auto;
+    font-weight: lighter;
+    padding: 15px;
+    background-color: aliceblue;
+    margin: 8px;
+    padding: 5px;
+    line-height: 1;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.env-page-p {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.ul-li-main-point {
+    width: auto;
+    height: auto;
+    font-weight: 700;
+}
+
+#bear-img {
+    display: block;
+    width: 98%;
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px auto;
+   
+}
+
+
+
